@@ -1,0 +1,377 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+
+*/
+body {
+			background-image: url(fondo.jpg)
+}
+
+#contenedor { 
+			width: 980px;
+			
+			margin: 0 auto;	
+			}
+#header { 
+			width: 980px;
+			height: 250px;
+		
+			font-family:"Verdana";
+			color: #ffcccc;
+	     	}
+
+#imgmenu {
+			width: 947px;
+			margin: 0 auto;
+			display: block;	
+			position: relative;
+			z-index: 10;				
+			 
+}
+
+#logo {
+ 			position: absolute;
+ 			z-index: 1;
+ 			top: 16px;
+ 			left: 396px;
+
+}
+
+
+#menu {
+			z-index: 0;
+			top: 140px;
+			position: absolute;
+}
+
+#boton1 {
+ 			position: absolute;
+ 			z-index: 1;
+ 			top: 18px;
+ 			left: 83px;
+}
+
+
+#boton2 {
+ 			position: absolute;
+ 			z-index: 1;
+ 			top: 20px;
+ 			left: 275px;
+}
+
+
+
+#boton3 {
+ 			position: absolute;
+ 			z-index: 1;
+ 			top: 17px;
+ 			left: 545px;
+}
+
+
+#boton4 {
+ 			position: absolute;
+ 			z-index: 1;
+ 			top: 20px;
+ 			left: 771px;
+}
+
+
+
+
+			
+#iconitos {
+		width: 150px;
+		height: 30px;
+		position: relative;
+		
+		z-index: 11;
+		top: -117px;
+		left: 790px;
+
+}
+			
+			
+/* FIN HEADER  */
+/* INICIO FOOTER  */
+
+
+#footer { 
+		    width: 900px;
+			background-color:#572527;
+			text-align:center;
+			font-family:"Verdana";
+			color:white;
+			font-size:13px;
+			position: relative;
+			padding: 0px;
+			
+			border-radius: 10px;  
+ 			-moz-border-radius:10px;  
+			 -webkit-border-radius:10px;  
+		    margin: 0 auto;
+		    margin-top: -10px;
+    		}
+#footer ul {
+			margin: 0 auto;
+}
+#footer li {
+			list-style-type: none;
+			display:inline;
+			padding-left: 32px;
+			padding-right: 32px;
+			padding-top: 10px;
+			
+			}
+
+
+/* FIN FOOTER  */
+/* INICIO PAG PPAL  */
+ 
+#contenido1 { 
+	        width: 900px;
+			position: relative;
+			top: -25px;
+			color:white;
+		    margin: 0 auto;
+			}
+#contenido2 { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			width: 900px;
+			height: 400px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;
+			  
+			}
+			
+#contenido2 h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+
+}
+			
+/* FIN PAG PPAL  */
+/* INICIO QUIENES SOMOS  */
+
+#quienes { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			top: -25px;
+			width: 900px;
+			height: 400px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#quienes h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+
+}
+
+#quienes h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+/* FIN QUIENES SOMOS  */
+/* INICIO PRODUCTOS  */
+
+#productos { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			top: -25px;
+			width: 900px;
+			height: 600px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#productos h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+
+}
+
+
+
+/* FIN PRODUCTOS  */
+/* INICIO SUCURSALES  */
+#sucursales { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			top: -25px;
+			width: 900px;
+			height: 600px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#sucursales h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#sucursales h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+
+/* FIN SUCURSALES  */
+/* INICIO CONTACTO  */
+#contacto { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			top: -25px;
+			width: 900px;
+			height: 600px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#contacto h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+
+/* FIN CONTACTO  */
+/* INICIO ACERCA DE LA PAGINA  */
+
+
+#acerca { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			top: -25px;
+			width: 900px;
+			height: 600px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#acerca h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+/* FIN ACERCA DE LA PAGINA  */
+/* INICIO TERMINOS Y CONDICIONES  */
+#terminos { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			top: -25px;
+			width: 900px;
+			height: 600px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#terminos h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+/* FIN TERMINOS Y CONDICIONES  */
+/* FIN TERMINOS Y CONDICIONES  */
+i
+
+#mapadesitio { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			top: -25px;
+			width: 900px;
+			height: 600px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#mapadesitio h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}

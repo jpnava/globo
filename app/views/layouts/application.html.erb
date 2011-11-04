@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+  <title>Pastelerías El Globo</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= javascript_include_tag "jqbanner" %>
+  <%= stylesheet_link_tag    "jqbanner" %>
+  
+
+  
+<script type="text/javascript" src="scripts.js"></script>
+<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+
+</head>
+<body>
+<body background="fondo.jpg">
+<div  id="contenedor" >
+	<div id="header">
+		<div id="imgmenu">
+			<%= image_tag "header.png", :size=> "947x218"%>
+			<div id="logo">
+				<%= link_to (image_tag "logo.png", :size=> "150x150"), root_path%>
+			</div>
+			<div id="menu">
+				<div id="boton1">
+					<a><%= link_to (image_tag "inicio.png"), index_path%></a>
+				</div>
+				<div id="boton2">
+					<a><%= link_to (image_tag "productos.png"), productos_path%></a>
+				</div>
+				<div id="boton3">
+					<a><%= link_to (image_tag "quienes.png"), quienes_path%></a>
+				</div>
+				<div id="boton4">
+					<a><%= link_to (image_tag "sucursales.png", :size=> "105x15"), sucursales_path%></a>
+				</div>
+			</div>
+		</div>
+		<div id="iconitos">
+			<a href="http://www.twitter.com"><%= image_tag "twitter.png", :size=> "40x40"%></a>
+			<a href="http://www.facebook.com"><%= image_tag "facebook.png", :size=> "40x40"%></a>
+			<%=link_to (image_tag "contacto.png", :size=> "40x40"), contacto_path%>
+		</div>
+	</div>
+	
+	
+<%= yield %>
+	<div id="footer">
+		<ul>
+			<li><%= link_to "Acerca del Sitio", acercade_path%></li>
+			<li><%= link_to "Términos y Condiciones", terminos_path%></li>
+			<li><%= link_to "Mapa del Sitio", mapa_path%></li>
+		</ul>
+		<p>2011® Todos los derechos reservados.©</p>
+	</div>
+</div>
+
+
+</body>
+</html>
