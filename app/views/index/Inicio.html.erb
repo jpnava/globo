@@ -1,24 +1,35 @@
 
 <div id="contenido">
 		<div id="contenido1">
-			<div id="jqb_object">
-
-				<div class="jqb_slides">
-					<div class="jqb_slide" title="Halloween Para todos!" ><%= image_tag "img1.jpg"%></div>
-					<div class="jqb_slide" title="Temporada de Deportes" ><%= image_tag "img2.jpg"%></div>
-					<div class="jqb_slide" title="Para todas las Fiestas"><%= image_tag "img3.jpg"%></div>
-					<div class="jqb_slide" title="Temporada de Deportes"><%= image_tag "img4.jpg"%></div>
-
-					<div class="jqb_bar">
-					<div class="jqb_info"></div>
-					<div id="btn_next" class="jqb_btn jqb_btn_next"></div>
-					<div id="btn_pauseplay" class="jqb_btn jqb_btn_pause"></div>
-					<div id="btn_prev" class="jqb_btn jqb_btn_prev"></div>
-				</div>
-
-			</div>
+			<div id="header"><div class="wrap">
+   				<div id="slide-holder">
+					<div id="slide-runner">
+					    <img id="slide-img-1" <%= image_tag "img1.jpg"%> class="slide" alt="" />
+						<img id="slide-img-2" <%= image_tag "img2.jpg"%> class="slide" alt="" />
+					    <img id="slide-img-3" <%= image_tag "img3.jpg"%> class="slide" alt="" />
+					    <img id="slide-img-4" <%= image_tag "img4.jpg"%> class="slide" alt="" />
+					    <img id="slide-img-5" <%= image_tag "img1.jpg"%> class="slide" alt="" />
+					    <img id="slide-img-6" <%= image_tag "img2.jpg"%> class="slide" alt="" />
+						<img id="slide-img-7" <%= image_tag "img3.jpg"%> class="slide" alt="" />
+						    <div id="slide-controls">
+						     <p id="slide-client" class="text"><strong>post: </strong><span></span></p>
+						     <p id="slide-desc" class="text"></p>
+						     <p id="slide-nav"></p>
+						    </div>
+					</div>
+				
+	
+	<!--content featured gallery here -->
+   				</div>
+  			 <script type="text/javascript">
+   			 if(!window.slider) var slider={};slider.data=[{"id":"slide-img-1","client":"nature beauty","desc":"nature beauty photography"},{"id":"slide-img-2","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-3","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-4","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-5","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-6","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-7","client":"nature beauty","desc":"add your description here"}];
+   			 </script>
+   			 </div>
+   			</div>
 		</div>
 		<div id="contenido2">
 			<h2> Promociones</h2>
 		</div>
 	</div>
+	
+<%= image_tag "img1.jpg"%>

@@ -10,10 +10,11 @@
   <%= javascript_include_tag "jqbanner" %>
   <%= stylesheet_link_tag    "jqbanner" %>
   
+  <%= javascript_include_tag "gale2" %>
+  <%= stylesheet_link_tag    "gale2" %>
+  
 
   
-<script type="text/javascript" src="scripts.js"></script>
-<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
 
 </head>
 <body>
@@ -50,7 +51,7 @@
 	
 <%= yield %>
 	<div id="footer">
-		<ul>
+		<ul id="menusillo">
 			<li><%= link_to "Acerca del Sitio", acercade_path%></li>
 			<li><%= link_to "Términos y Condiciones", terminos_path%></li>
 			<li><%= link_to "Mapa del Sitio", mapa_path%></li>

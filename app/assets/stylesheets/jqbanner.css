@@ -5,10 +5,7 @@ body {
 	color: #333;
 	text-align: left;
 	}
-a:link { text-decoration : none; color: #15ae39; font-weight:bold;} 
-a:active { text-decoration : underline; color: #15ae39; font-weight:bold;} 
-a:visited { text-decoration : none; color: #15ae39; font-weight:bold; } 
-a:hover { text-decoration : underline; color: #15ae39; font-weight:bold;} 
+ 
 
 #jqb_object img{ 
 	border: none;

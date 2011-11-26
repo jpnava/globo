@@ -14,7 +14,7 @@ body {
 			
 			margin: 0 auto;	
 			}
-#header { 
+#headerGeneral { 
 			width: 980px;
 			height: 250px;
 		
@@ -100,6 +100,7 @@ body {
 
 #footer { 
 		    width: 900px;
+		    height: 60px;
 			background-color:#572527;
 			text-align:center;
 			font-family:"Verdana";
@@ -114,6 +115,16 @@ body {
 		    margin: 0 auto;
 		    margin-top: -10px;
     		}
+    		
+a:link { text-decoration : none; color: #fff;} 
+a:active { text-decoration : underline; color: #fff;} 
+a:visited { text-decoration : none; color: #fff;} 
+a:hover { text-decoration : underline; color: #fff;} 
+
+#menusillo {
+			padding-top: 10px;
+}   		
+    		
 #footer ul {
 			margin: 0 auto;
 }
@@ -122,9 +133,13 @@ body {
 			display:inline;
 			padding-left: 32px;
 			padding-right: 32px;
-			padding-top: 10px;
+			padding-top: 0px;
 			
 			}
+
+#footer p {
+			margin-top: 5px;
+}
 
 
 /* FIN FOOTER  */
