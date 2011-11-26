@@ -1,0 +1,21 @@
+<%= form_for(@sabor) do |f| %>
+  <% if @sabor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@sabor.errors.count, "error") %> prohibited this sabor from being saved:</h2>
+
+      <ul>
+      <% @sabor.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :sabor1 %><br />
+    <%= f.text_field :sabor1 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
