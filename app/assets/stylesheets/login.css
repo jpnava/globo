@@ -1,0 +1,38 @@
+/* Login */
+
+#loginform { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			top: -25px;
+			width: 900px;
+			height: 600px;
+			font-family:"Garamond";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#loginform h2 {
+			
+			padding: 12px;
+			padding-right: 15px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#loginform h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+
+/* FIN login  */
