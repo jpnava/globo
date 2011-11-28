@@ -18,9 +18,19 @@
 
 </head>
 <body>
-<body background="fondo.jpg">
 <div  id="contenedor" >
-	<div id="header">
+	<div id="headerr">
+		<div  id="login" >
+			<%= link_to_unless_current "Registrarse", new_user_path %>
+			<% if !current_user %>
+				<%= link_to "Iniciar Sesión", login_path %>
+				<% else %>
+				||
+				<%= link_to_unless_current "Usuarios", useres_path %>
+				<%= link_to "Editar Perfil", edit_user_path(current_user) %>
+				<%= link_to "Cerrar Sesión", logout_path %>
+				<% end %>
+		</div>
 		<div id="imgmenu">
 			<%= image_tag "header.png", :size=> "947x218"%>
 			<div id="logo">

@@ -1,4 +1,6 @@
 Parcial2::Application.routes.draw do
+  resources :useres
+
   resources :sabores
 
   resources :comidas
@@ -6,6 +8,8 @@ Parcial2::Application.routes.draw do
   resources :promociones
 
   resources :categorias
+  
+  resource :user_session
 
   get "index/Inicio"
 
@@ -33,6 +37,9 @@ Parcial2::Application.routes.draw do
   match "acercade" => "index#Acercade"
   match "terminos" => "index#Terminos"
   match "mapa" => "index#Mapa"
+  match "login" => "useres_sessiones#new"
+  match "logout" => "useres_sessiones#destroy"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

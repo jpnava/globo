@@ -73,7 +73,7 @@ var slider={
  cur:0,
  cr:[],
  al:null,
- at:10*1000,
+ at:5*1000,
  ar:true,
  init:function(){
   if(!slider.data || !slider.data.length)

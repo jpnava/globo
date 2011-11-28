@@ -14,6 +14,9 @@ body {
 			
 			margin: 0 auto;	
 			}
+			
+
+			
 #headerGeneral { 
 			width: 980px;
 			height: 250px;
@@ -153,7 +156,8 @@ a:hover { text-decoration : underline; color: #fff;}
 		    margin: 0 auto;
 			}
 #contenido2 { 
-			
+			top: -40px;
+			padding-top: 0px;
 			background-color:#f2ab73;
 			position: relative;
 			margin: 0 auto;
@@ -168,12 +172,36 @@ a:hover { text-decoration : underline; color: #fff;}
 			  
 			}
 			
-#contenido2 h2 {
-			
-			padding: 12px;
-			padding-right: 15px;
+#cosa {
+			margin-top: 0px;
+			margin-right: 40px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 80px;
+			color: white;
 			background-color: #572527;
-			font-size: 22px;
+			font-size: 18px;
+
+}
+#cosa2 {
+			margin-top: 0px;
+			margin-right: 40px;
+			margin-left: 40px;
+			padding: 35px;
+			padding-top: 10px;
+			padding-right: 80px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+#cosa2 h2 {
+			font-size: 18px;
+}
+
+#promo {
+			padding-bottom: 30px;
 
 }
 			
