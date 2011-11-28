@@ -98,6 +98,34 @@ body {
 			
 			
 /* FIN HEADER  */
+
+/* INICIO LOGIN  */
+
+#login {
+		
+		height: 20px;
+		background-color: #572527;
+		font-family: "Arial Black";
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 4px;
+		padding-bottom: 2px;
+	
+		color: white;
+		z-index: 19;
+		position: absolute;
+		top: 10px;
+		right: 110px;
+		border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+
+}
+
+
+/* FIN LOGIN  */
+
+
 /* INICIO FOOTER  */
 
 
