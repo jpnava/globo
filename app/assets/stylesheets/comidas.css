@@ -1,0 +1,222 @@
+/* nueva producto */
+
+#nuevacomida { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 550px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#nuevacomida h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#nuevacomida h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN producto  */
+/* lista 1 */
+
+#vista1comida { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 550px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#vista1comida h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#vista1comida h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN lista 1  */
+
+/* lista  */
+
+#listacomida { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 550px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#listacomida h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#listacomida h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN lista   */
+
+/* Editar comida */
+
+#editarcomida { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 550px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#editarcomida h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#editarcomida h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN lista 1  */

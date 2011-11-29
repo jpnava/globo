@@ -277,6 +277,20 @@ a:hover { text-decoration : underline; color: #fff;}
 			top: 20px;
 			position: absolute;
 			z-index: 20;
+			
+}
+
+#textoquien {
+			width: 530px;
+			padding-left: 20px;
+			font-family: "Helvetica Neue";
+			
+			
+}
+
+#textoquien p {
+			
+
 }
 /* FIN QUIENES SOMOS  */
 /* INICIO PRODUCTOS  */
