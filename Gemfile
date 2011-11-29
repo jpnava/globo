@@ -9,6 +9,8 @@ gem 'authlogic'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'will_paginate'
+gem 'carrierwave'
+gem 'rmagick'
 
 
 # Gems used only for assets and not required
