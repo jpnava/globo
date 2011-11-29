@@ -220,3 +220,339 @@
 
 
 /* FIN lista 1  */
+
+/* nueva categoria */
+
+#nuevacate { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 70px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#nuevacate h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#nuevacate h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN nueva categoria 1  */
+
+/* lista categoria */
+
+#listacate { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 270px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#listacate h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#listacate h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN lista categorias  */
+
+/* editar categoria */
+
+#editarcate { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 70px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#editarcate h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#editarcate h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN editar categorias  */
+/* show categoria */
+
+#showcate { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 70px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#showcate h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#showcate h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN show categorias  */
+
+/* lista sabores */
+
+#listasabores { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 270px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#listasabores h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#listasabores h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN lista sabores  */
+
+/* nuevo sabores */
+
+#nuevosabores { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 873px;
+			height: 70px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#nuevosabores h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#nuevosabores h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
+
+/* FIN nuevo sabores  */
+
