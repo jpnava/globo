@@ -5,10 +5,12 @@
 			background-color:#f2ab73;
 			position: relative;
 			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
 			top: -25px;
-			width: 900px;
-			height: 600px;
-			font-family:"Garamond";
+			width: 180px;
+			height: 160px;
+			font-family:"Helvetica Neue";
 			color:white;
 			font-size:13px;
 			border-radius: 15px;  
@@ -19,7 +21,7 @@
 #loginform h2 {
 			
 			padding: 12px;
-			padding-right: 15px;
+			padding-right: 17px;
 			background-color: #572527;
 			font-size: 22px;
 			
@@ -34,5 +36,150 @@
 
 }
 
+#cosachiqui {
+			width: 187px;
+			margin-top: 0px;
+			margin-right: 35px;
+			margin-left: 40px;
+			padding: 20px;
+			padding-top: 10px;
+			padding-right: 0px;
+			color: white;
+			background-color: #572527;
+			font-size: 18px;
+
+}
+
+
 
 /* FIN login  */
+
+/* crear */
+
+#crearuser { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 180px;
+			height: 130px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#crearuser h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#crearuser h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+
+
+
+/* FIN crear  */
+
+/* editar */
+
+#editauser { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 180px;
+			height: 145px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#editauser h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#editauser h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+
+
+
+/* FIN editar  */
+
+
+/* lista */
+
+#listauser { 
+			
+			background-color:#f2ab73;
+			position: relative;
+			margin: 0 auto;
+			margin-left: 40px;
+			padding: 14px;
+			top: -25px;
+			width: 380px;
+			height: 145px;
+			font-family:"Helvetica Neue";
+			color:white;
+			font-size:13px;
+			border-radius: 15px;  
+ 			-moz-border-radius:15px;  
+			 -webkit-border-radius:15px;  
+			}
+			
+#listauser h2 {
+			
+			padding: 12px;
+			padding-right: 17px;
+			background-color: #572527;
+			font-size: 22px;
+			
+			}
+			
+#listauser h3 {
+			
+			
+			margin-top: 18px;
+			padding-left: 15px;
+			font-size: 18px;
+
+}
+
+
+
+
+/* FIN lista  */
