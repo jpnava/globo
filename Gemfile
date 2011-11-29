@@ -8,6 +8,7 @@ gem 'authlogic'
 
 gem 'sqlite3'
 gem 'mysql2'
+gem 'will_paginate'
 
 
 # Gems used only for assets and not required
